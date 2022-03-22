@@ -1,0 +1,12 @@
+OK 1. Estructura de carpeta
+OK 2. Etiquetas semánticas
+OK 3. Clases especificas: 
+    OK a. .desc-section  en la descripcion, color en hexa
+    OK b. .footer
+    OK c. h1, h2, p usar color indicado en guia de estilo
+    OK d. .icons-section en la sección de íconos color hexa
+    OK e. usar iconos mencionados desde font-awesome 
+        (fa-eye fa-hand-peace fa-paint-brush)
+OK 4. Usar font Raleway 300 y 500 según corresponda.
+
+colores: #000 #fff #1e1a13

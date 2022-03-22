@@ -1,0 +1,95 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: #000;
+    margin-top: 0;
+}
+
+header {
+    padding: 0;
+    margin-top: 0;
+    min-height: 100vh;
+    background-image: url('../img/bg-header.jpg');
+    background-position:0rem 2rem;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    padding: 1vh;
+    background-color: #000;
+    font-size: 2.5rem;
+    font-weight:500;
+
+}
+
+.desc-section {
+    width: 100%;
+    padding: 4rem;
+}
+
+.desc-wrapper {
+    width: 35%;
+    padding: 1rem 2rem;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.img-wrapper {
+    width: 40%;
+}
+
+.desc-wrapper, .desc-section .img-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-wrapper img {
+    max-width: 25vw;
+    width: 100%;
+}
+
+.icons-section {
+    background-color: #1e1a13;
+    padding: 3rem 15%;
+    text-align: center;
+}
+.feature {
+    display: inline-block;
+    min-width: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.icons-section h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+/* Hay alguna manera mas elegante de hacer esto sin usar tamaños tan hardcodeados?? */
+section {
+    text-align: center;
+    padding: 4rem 0;
+    vertical-align: middle;
+}
+
+section img {
+    max-height: 15vw;
+    margin: 0 0.5rem;
+}
+/* Pendiente, como hacer fit de esta imagen "acercando" la primera */
+
+.footer {
+    background-color: #1e1a13;
+    padding: 2.5rem 0rem;
+}
+a {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
