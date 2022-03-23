@@ -1,3 +1,4 @@
+/* generales */
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -6,6 +7,7 @@ body {
     margin-top: 0;
 }
 
+/* header */
 header {
     padding: 0;
     margin-top: 0;
@@ -25,20 +27,25 @@ h1 {
 
 }
 
+/* desc-section */
 .desc-section {
-    width: 100%;
-    padding: 4rem;
+    width: 80%; /* Mejorado por el profe */
+    margin: 0 auto;
+    padding: 2rem 0;
+    /* padding: 5rem; */
 }
 
 .desc-wrapper {
-    width: 35%;
-    padding: 1rem 2rem;
-    margin-left: 8%;
-    margin-right: 8%;
+    width: 46%;
+    padding: 1rem 0;
+    /* margin-left: 8%; */
+    /* margin-right: 8%; */
 }
 
 .img-wrapper {
-    width: 40%;
+    width: 43%;
+    padding-left: 5rem;
+    text-align: right;
 }
 
 .desc-wrapper, .desc-section .img-wrapper {
@@ -51,6 +58,8 @@ h1 {
     width: 100%;
 }
 
+
+/* sección de características */
 .icons-section {
     background-color: #1e1a13;
     padding: 3rem 15%;
@@ -69,19 +78,40 @@ h1 {
     font-size: 2.5rem;
 }
 
+/* Sección de 3 imágenes */
 /* Hay alguna manera mas elegante de hacer esto sin usar tamaños tan hardcodeados?? */
-section {
+/* section {
     text-align: center;
     padding: 4rem 0;
     vertical-align: middle;
 }
 
 section img {
-    max-height: 15vw;
+    max-height: 14vw;
     margin: 0 0.5rem;
-}
-/* Pendiente, como hacer fit de esta imagen "acercando" la primera */
+} */
 
+/* Dejo la seccion de 3 imágenes con la
+/* recomendación del profe 
+/* que incluye crear dos contenedores extra */
+.container_iguanas{
+    width:80%;
+    margin:0 auto;
+    padding:40px 0;
+}
+.imagen_iguana{
+    display:inline-block;
+    width:30%;
+    margin:0 10px;
+}
+
+.imagen_iguana img {
+    width: 100%;
+    height: 200px;
+} /* Esto no es responsive aunque no es materia aún */ 
+
+
+/* footer? el footer po! */
 .footer {
     background-color: #1e1a13;
     padding: 2.5rem 0rem;
@@ -93,3 +123,6 @@ a {
     text-decoration: none;
 }
 
+/* Pendiente, auto estudio: 
+/* como hacer fit de esta imagen 
+/* "acercandola" al contenedor */
