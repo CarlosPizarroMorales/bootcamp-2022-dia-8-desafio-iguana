@@ -1,106 +1,116 @@
-/* generales */
 body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    color: white;
-    background-color: #000;
-    margin-top: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: #000;
+  /* mini-reset */
+  padding: 0;
+  margin: 0; 
 }
 
-/* header */
-header {
-    padding: 0;
-    margin-top: 0;
-    min-height: 100vh;
-    background-image: url('../img/bg-header.jpg');
-    background-position:0rem 2rem;
-    background-size: cover;
+/* Header */
+header img {
+  width: 100%;
 }
-
 h1 {
-    margin-top: 0;
-    text-align: center;
-    padding: 1vh;
-    background-color: #000;
-    font-size: 2.5rem;
-    font-weight:500;
-
+  text-align: center;
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 59px;
+  margin: 0.5rem auto;
 }
 
-/* desc-section */
+/* Seccion de la descripcion e imagen */ 
 .desc-section {
-    width: 80%; /* Mejorado por el profe */
-    margin: 0 auto;
-    padding: 2rem 0;
-    /* padding: 5rem; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
 }
-
+.desc-wrapper, .img-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
 .desc-wrapper {
-    width: 46%;
-    padding: 1rem 0;
-    /* margin-left: 8%; */
-    /* margin-right: 8%; */
+  width: 50%;
 }
-
+.desc-wrapper p:nth-child(1) {
+  margin-top: 2rem;
+}
 .img-wrapper {
-    width: 43%;
-    padding-left: 5rem;
-    text-align: right;
+  width: 25rem;
+  height: 15rem;
+  text-align: right;
+  overflow: hidden;
+  float: right;
 }
-
-.desc-wrapper, .desc-section .img-wrapper {
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .img-wrapper img {
-    max-width: 25vw;
-    width: 100%;
+  width: 100%;
 }
 
-
-/* sección de características */
+/* Sección de los íconos */
+aside {
+  background-color: #1e1a13;
+  padding: 1rem 0;
+}
 .icons-section {
-    background-color: #1e1a13;
-    padding: 3rem 15%;
-    text-align: center;
+  width: 50%;
+  margin: 2rem auto 1rem;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 59px;
+  margin: 2rem auto;
 }
 .feature {
-    display: inline-block;
-    min-width: 30%;
-    text-align: center;
-    font-size: 1.5rem;
+  display: inline-block;
+  width: 32.5%;
+}
+.feature-1 p {
+  text-align: left;
+}
+.fa-eye {
+  margin-left: 0.5rem;
+}
+.feature-3 p {
+  text-align: right;
+}
+.fa-paint-brush {
+  margin-right: 2rem;
 }
 
-.icons-section h2 {
-    text-align: center;
-    font-weight: 500;
-    font-size: 2.5rem;
+/* Sección de imágenes */
+.container-iguana {
+  width: 78%;
+  margin: 3rem auto;
+}
+.imagen-iguana {
+  display: inline-block;
+  height: 12.6rem;
+  width: 19.7rem;
+  overflow: hidden;
+}
+.imagen-iguana img {
+  width: 100%;
+}
+.imagen-iguana img:nth-child(1) {
+  height: 100%;
+  margin: 0 auto;
+}
+.container-iguana .imagen-iguana:nth-child(2) {
+  margin-left: 1.5rem;
+}
+.container-iguana .imagen-iguana:nth-child(3) {
+  float: right;
 }
 
-.container_iguana{
-    padding: 3rem 0;
-    text-align: center;
-}
-.imagen_iguana{
-    display:inline-block;
-    height: 12rem;
-    width: 18rem;
-    margin-left: 2rem;
-    overflow:hidden;
-}
-
-.imagen_iguana img {
-    height: 100%;
-}
-
-.imagen_iguana:nth-child(1) img {
-    object-position: -1.5rem;
-}
-
+/* Footer */
 .footer {
     background-color: #1e1a13;
     padding: 2.5rem 0rem;
+    width: 100%;
 }
 a {
     display: block;
